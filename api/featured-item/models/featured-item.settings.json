@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_items",
+  "info": {
+    "name": "Featured Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
