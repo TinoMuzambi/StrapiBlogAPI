@@ -32,7 +32,7 @@
     "uuid": "ff9a05d1-f8fd-4aa9-b0ef-e7165ce53288"
   },
   "engines": {
-    "node": "10.16.0",
+    "node": ">=10.16.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
